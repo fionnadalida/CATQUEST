@@ -57,7 +57,7 @@ To maintain information accuracy and respect original content creators, CatQuest
 
 ### View Live Website
 Visit the live hosted site directly:
-https://your-username.github.io/CatQuest/
+https://fionnadalida.github.io/CATQUEST/
 
 ---
 
