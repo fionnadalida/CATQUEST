@@ -21,7 +21,7 @@
 - **CSS3:** 3 dedicated stylesheets (`index.css`, `breeds.css`, `about.css`).
 
 ---
-
+```text
 ## Directory Structure
 
 All project files, media assets, and stylesheets reside in a flat single-folder structure:
@@ -37,7 +37,7 @@ CatQuest/
 ├── [Images]             Image assets for the main page chessboard
 ├── [Videos]             Video files for each detailed breed page
 └── [Icons]              Design icons for about.html
-
+```text
 ---
 
 ## Data Sourcing & Attribution
