@@ -41,7 +41,8 @@ CatQuest/
 
 ---
 
-## Data Sourcing & Attribution
+**## Data Sourcing & Attribution**
+
 To maintain information accuracy and respect original content creators, CatQuest utilizes a two-tier attribution model:
 
 1. Specific Breed Pages (Primary Sources): Each of the 15 breed detail pages links directly to its respective official profile page (e.g., specific TICA, CFA, GCCF, or PetMD pages for that particular breed).
@@ -50,7 +51,6 @@ To maintain information accuracy and respect original content creators, CatQuest
 TICA (The International Cat Association)
 CFA (Cat Fanciers' Association)
 GCCF (Governing Council of the Cat Fancy)
-
 PetMD
 
 ---
