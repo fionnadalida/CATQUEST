@@ -4,7 +4,7 @@
 
 ---
 
- Features
+## Features
 
 - **Interactive Breed Chessboard (`breeds.html`):** Main showcase page organizing cat breeds into a visual grid layout for intuitive browsing.
 - **Dedicated Breed Pages (15 Detailed Pages):** Individual pages for 15 distinct cat breeds featuring specialized care guidelines, temperament profiles, and physical traits.
@@ -15,14 +15,14 @@
 
 ---
 
- Tech Stack
+## Tech Stack
 
 - **HTML5:** 18 pages total (`index.html`, `breeds.html`, `about.html`, and 15 individual breed pages).
 - **CSS3:** 3 dedicated stylesheets (`index.css`, `breeds.css`, `about.css`).
 
 ---
 
- Directory Structure
+## Directory Structure
 
 All project files, media assets, and stylesheets reside in a flat single-folder structure:
 
