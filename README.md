@@ -38,3 +38,23 @@ CatQuest/
 ├── [Images]             Image assets for the main page chessboard
 ├── [Videos]             Video files for each detailed breed page
 └── [Icons]              Design icons for about.html
+
+---
+
+## Data Sourcing & Attribution
+To maintain information accuracy and respect original content creators, CatQuest utilizes a two-tier attribution model:
+
+1. Specific Breed Pages (Primary Sources): Each of the 15 breed detail pages links directly to its respective official profile page (e.g., specific TICA, CFA, GCCF, or PetMD pages for that particular breed).
+
+2. About Page (about.html - General Attribution): Serves as a high-level bibliography crediting the core parent organizations and platforms that made this educational resource possible:
+TICA (The International Cat Association)
+CFA (Cat Fanciers' Association)
+GCCF (Governing Council of the Cat Fancy)
+
+PetMD
+
+---
+
+## Author & Project Info
+Developer: Solo Project
+Context: First-Year Web Development Final Project
