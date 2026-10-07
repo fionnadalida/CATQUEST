@@ -37,7 +37,7 @@ CatQuest/
 ├── [Images]             Image assets for the main page chessboard
 ├── [Videos]             Video files for each detailed breed page
 └── [Icons]              Design icons for about.html
-```text
+```
 ---
 
 ## Data Sourcing & Attribution
