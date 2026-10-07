@@ -65,7 +65,7 @@ https://your-username.github.io/CatQuest/
 To inspect or run the project files locally on your computer:
 
 1. Clone this repository:
-   git clone https://github.com/your-username/CatQuest.git
+   git clone https://github.com/fionnadalida/CatQuest.git
 
 2. Open `index.html` directly in any web browser or VS Code.
 
