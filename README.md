@@ -1,4 +1,4 @@
- CatQuest
+# CatQuest
 
 **CatQuest** is an educational web development project created to help cat lovers and owners learn about different cat breeds. The platform organizes information regarding history, physical traits, temperament, and care requirements into an accessible, flat HTML/CSS format.
 
