@@ -1,68 +1,88 @@
 * {
     box-sizing: border-box;
-
 }
 
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-
-    background-image: url(catbg.gif);
+    background-image: url(../images/catbg.gif);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-}
 
+    /*Center welcome-box vertically and horizontally*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100dvh; /*Dynamic viewport height accounts for phone address bars*/
+    padding: 20px 0;
+}
 
 .welcome-box {
     max-width: 750px;
     width: 90%;
-    margin: 80px auto;
+    margin: 0 auto; /*Removed fixed 80px/40px top margin*/
     padding: 70px;
     text-align: center;
-
     background: rgba(0, 0, 0, 0.75); 
     box-shadow: 0 0 30px rgba(255, 0, 150, 0.8);
     border-radius: 15px;
-
-h1 {
-    color: #ff0096; 
-    text-shadow: 0 0 20px #ff66cc;
 }
 
-p {
+.welcome-box h1 {
+    color: #ff0096; 
+    text-shadow: 0 0 20px #ff66cc;
+    margin-top: 0;
+}
+
+.welcome-box p {
     color: white;
     line-height: 1.6;
 }
-}
-
 
 .start-button {
     display: inline-block;
     margin-top: 20px;
     padding: 15px 30px;
-
     background-color: #ff0096;
     color: #fff000;
     text-decoration: none;
     font-weight: bold;
     border-radius: 8px;
     box-shadow: 0 0 20px #fff000;
-    transition: background-color 0.15s,
-    color 0.15s, transform 0.2s;
-
+    transition: background-color 0.15s, color 0.15s, transform 0.2s;
     cursor: pointer;
-
 }
 
-.start-button:hover{
+.start-button:hover {
     background-color: #fff000;
     color: #ff0096;
-    opacity: white;
     box-shadow: 0 0 20px #ff0096;
     transform: translateY(-2px);
 }
 
 .start-button:active {
-    opacity: white;
+    opacity: 0.9;
+}
+
+/* Phone Adjustments */
+@media (max-width: 768px) {
+    .welcome-box {
+        padding: 24px 16px;
+        width: 92%;
+    }
+
+    .welcome-box h1 {
+        font-size: 1.8rem;
+    }
+
+    .welcome-box p {
+        font-size: 0.95rem;
+    }
+
+    .start-button {
+        padding: 12px 20px;
+        font-size: 0.95rem;
+        width: 100%;
+    }
 }
