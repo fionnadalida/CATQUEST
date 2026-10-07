@@ -1,6 +1,6 @@
 # CatQuest
 
-**CatQuest** is an educational web development project created to help cat lovers and owners learn about different cat breeds. The platform organizes information regarding history, physical traits, temperament, and care requirements into an accessible, flat HTML/CSS format.
+**CatQuest** is an educational web development project created to help cat lovers and owners learn about different cat breeds. Developed as a solo project, the platform organizes information regarding history, physical traits, temperament, and care requirements into an accessible, flat HTML/CSS format.
 
 ---
 
@@ -10,7 +10,7 @@
 - **Dedicated Breed Pages (15 Detailed Pages):** Individual pages for 15 distinct cat breeds featuring specialized care guidelines, temperament profiles, and physical traits.
 - **Embedded Video Media:** Dedicated video clips on each individual breed page showcasing active behaviors and visual profiles.
 - **Direct Webpage Sourcing:** Deep-linked external citations on individual breed pages pointing directly to official registry profiles (e.g., TICA Abyssinian breed page).
-- **Resource & Attribution Hub (`about.html`):** Centralized about page featuring project background, custom UI icons, and general domain attributions.
+- **Project Goal & Resource Hub (`about.html`):** Centralized about page featuring project goals, custom UI icons, and general domain attributions.
 - **Modular Stylesheets:** Multi-page styling separated into specialized stylesheets (`index.css`, `breeds.css`, `about.css`) for consistent theme management.
 
 ---
@@ -26,7 +26,6 @@
 
 All project files, media assets, and stylesheets reside in a flat single-folder structure:
 
-```text
 CatQuest/
 ├── index.html           Homepage
 ├── breeds.html          Main page featuring the breed chessboard
@@ -41,20 +40,38 @@ CatQuest/
 
 ---
 
-**## Data Sourcing & Attribution**
+## Data Sourcing & Attribution
 
 To maintain information accuracy and respect original content creators, CatQuest utilizes a two-tier attribution model:
 
-1. Specific Breed Pages (Primary Sources): Each of the 15 breed detail pages links directly to its respective official profile page (e.g., specific TICA, CFA, GCCF, or PetMD pages for that particular breed).
+1. **Specific Breed Pages (Primary Sources):** Each of the 15 breed detail pages links directly to its respective official profile page (e.g., specific TICA, CFA, GCCF, or PetMD pages for that particular breed).
+2. **About Page (`about.html` - General Attribution):** Serves as a high-level bibliography crediting the core parent organizations and platforms that made this educational resource possible:
+   - [TICA (The International Cat Association)](https://tica.org/)
+   - [CFA (Cat Fanciers' Association)](https://cfa.org/)
+   - [GCCF (Governing Council of the Cat Fancy)](https://www.gccfcats.org/)
+   - [PetMD](https://www.petmd.com/)
 
-2. About Page (about.html - General Attribution): Serves as a high-level bibliography crediting the core parent organizations and platforms that made this educational resource possible:
-TICA (The International Cat Association)
-CFA (Cat Fanciers' Association)
-GCCF (Governing Council of the Cat Fancy)
-PetMD
+---
+
+## Live Demo & Getting Started
+
+### View Live Website
+Visit the live hosted site directly:
+https://your-username.github.io/CatQuest/
+
+---
+
+### Run Locally
+To inspect or run the project files locally on your computer:
+
+1. Clone this repository:
+   git clone https://github.com/your-username/CatQuest.git
+
+2. Open `index.html` directly in any web browser or VS Code.
 
 ---
 
 ## Author & Project Info
-Developer: Solo Project
-Context: First-Year Web Development Final Project
+
+- **Developer:** Solo Project
+- **Context:** First-Year Web Development Final Project
