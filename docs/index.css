@@ -5,7 +5,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-image: url("catbg.gif");
+    background-image: url(catbg.gif);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -14,14 +14,14 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100dvh; /*Dynamic viewport height accounts for phone address bars*/
+    min-height: 100dvh; /*dvh accounts for phone address bars*/
     padding: 20px 0;
 }
 
 .welcome-box {
     max-width: 750px;
     width: 90%;
-    margin: 0 auto; /*Removed fixed 80px/40px top margin*/
+    margin: 0 auto; 
     padding: 70px;
     text-align: center;
     background: rgba(0, 0, 0, 0.75); 
@@ -65,7 +65,7 @@ body {
     opacity: 0.9;
 }
 
-/* Phone Adjustments */
+/*for phone adjustments screen*/
 @media (max-width: 768px) {
     .welcome-box {
         padding: 24px 16px;
