@@ -5,12 +5,12 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-image: url(catbg.gif);
+    background-image: url ("catbg.gif");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 
-    /*Center welcome-box vertically and horizontally*/
+    /*this one centers the welcome-box vertically and horizontally*/
     display: flex;
     justify-content: center;
     align-items: center;
